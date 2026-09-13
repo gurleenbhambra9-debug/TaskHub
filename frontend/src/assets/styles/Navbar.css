@@ -1,0 +1,87 @@
+.navbar{
+    /* border:1px solid black; */
+    display: flex;
+    padding:30px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color:white;
+}
+.navbar-h2{
+    font-family: var(--font-heading);
+    text-shadow: 2px 2px 2px black;
+}
+.list-items{
+    display: flex;
+    gap:25px;
+    font-family: var(--font-heading);
+    
+}
+.list-items a{
+    text-decoration: none;
+    color:white;
+      /* text-shadow: 2px 2px 2px black; */
+}
+.list-items a:hover{
+    opacity: 0.5;
+     text-shadow: 2px 2px 2px black;
+}
+.navbar-btns{
+    display: flex;
+    gap:20px;
+    
+   
+}
+.navbar-btns button{
+    padding:10px 20px;
+     font-family: var(--font-heading);
+     border-radius: 10px;
+    
+}
+.navbar-btns button:hover{
+    cursor: pointer;
+}
+.navbar-login{
+    background: transparent;
+    color:white;
+    border:1px solid white;
+}
+.navbar-login:hover{
+    transform: scale(1.1);
+}
+.navbar-register{
+    background-color: var( --primary);
+    color:white;
+     border:none;
+}
+.navbar-register:hover{
+    transform: scale(1.1);
+}
+
+/* Navbar on About page */
+.about-navbar {
+    /* background-color: var( --primary); */
+    background: linear-gradient( 270deg, var( --navy-medium), var(--primary));
+    color: white;
+}
+
+.about-navbar .navbar-h2 {
+    color: white;
+    text-shadow: none;
+}
+
+.about-navbar .list-items a {
+    color: white;
+}
+
+.about-navbar .navbar-login {
+    color: white;
+    border-color: white;
+     box-shadow: 3px 3px 3px black;
+}
+.about-navbar .navbar-register{
+    background-color: white;
+    color:var(--primary);
+    box-shadow: 3px 3px 3px black;
+}

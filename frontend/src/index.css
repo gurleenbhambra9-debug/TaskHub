@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+:root {
+  /* ===== FONTS ===== */
+ --font-primary: "Inter", sans-serif;
+  --font-heading: "Manrope", sans-serif;
+   --font-mono: "DM Mono", monospace;
+  /* ===== PRIMARY COLORS ===== */
+  --primary: #2277F5;
+  --primary-dark: #0F2550;
+  --primary-light: #EAF2FF;
+
+  /* ===== NAVY / DARK COLORS ===== */
+  --navy: #06172F;
+  --navy-light: #102549;
+  --navy-medium: #193563;
+
+  /* ===== BACKGROUND COLORS ===== */
+  --bg-white: #FFFFFF;
+  --bg-light: #F3F6FB;
+  --bg-blue-light: #F0F5FC;
+
+  /* ===== TEXT COLORS ===== */
+  --text-dark: #172033;
+  --text-primary: #1E293B;
+  --text-secondary: #64748B;
+  --text-light: #94A3B8;
+   --text-more-light: #bfc2c6;
+  --text-white: #FFFFFF;
+
+  /* ===== BORDER COLORS ===== */
+  --border: #E2E8F0;
+  --border-light: #EDF2F7;
+
+  /* ===== STATUS COLORS ===== */
+  --success: #22C55E;
+  --success-light: #E9F9EF;
+
+  --warning: #F59E0B;
+  --warning-light: #FFF6E5;
+
+  --danger: #EF4444;
+  --danger-light: #FEECEC;
+
+  /* ===== UI ELEMENTS ===== */
+  --input-bg: #FFFFFF;
+  --card-bg: #FFFFFF;
+  --icon-bg: #EEF5FF;
+
+  /* ===== SHADOWS ===== */
+  --shadow-sm: 0 2px 8px rgba(15, 37, 80, 0.06);
+  --shadow-md: 0 8px 24px rgba(15, 37, 80, 0.08);
+  --shadow-lg: 0 15px 40px rgba(15, 37, 80, 0.12);
+
+  /* ===== BORDER RADIUS ===== */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+
+  /* ===== TRANSITIONS ===== */
+  --transition: 0.3s ease;
+}
